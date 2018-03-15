@@ -7,7 +7,7 @@
 
 
 for (i <- 1 to 100) i match {
-  case _ if i % 3 == 0 && i % 5 == 0 => print("typesafe, ")
+  case _ if i % 15 == 0 => print("typesafe, ")
   case _ if i % 3 == 0 => print("type, ")
   case _ if i % 5 == 0 => print("safe, ")
   case _ => print(i + ", ")
